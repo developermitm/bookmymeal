@@ -1,0 +1,29 @@
+.owl-pre{
+    left: 15px;
+}
+.owl-next { right: 15px;}
+.owl-pre,.owl-next{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.owl-pre:hover, .owl-pre:active, .owl-pre:focus, .owl-next:hover, .owl-next:active,.owl-next:focus{outline: 5px;}
+.owl-pre , .owl-next  {
+    font-size:20px;
+    color:aliceblue;
+    text-shadow: 1px 1px 5px black;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.owl-theme .owl-nav [class="owl-"]:hover { background-color:transparent; }
+.item{ border:1px solid #ddd; border-radius: 3px;}
+.item img {border-top-left-radius: 3px; border-top-right-radius: 3px;}
+.item h5 { margin: 7px 5px 0 5px; font-size: 11pt;}
+.item p { margin:0 5px 5px 5px; font-size:10pt}
+
+
